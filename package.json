@@ -1,0 +1,19 @@
+{
+  "name": "may2016-react",
+  "version": "1.0.0",
+  "description": "React Project Template with automated build.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisminnick/may2016-react-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisminnick/may2016-react-training/issues"
+  },
+  "homepage": "https://github.com/chrisminnick/may2016-react-training#readme"
+}

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chrisminnick/may2016-react-training/issues"
   },
-  "homepage": "https://github.com/chrisminnick/may2016-react-training#readme"
+  "homepage": "https://github.com/chrisminnick/may2016-react-training#readme",
+  "devDependencies": {
+    "gulp-cli": "github:gulpjs/gulp-cli#4.0"
+  }
 }

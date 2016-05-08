@@ -2,6 +2,9 @@
   "name": "may2016-react",
   "version": "1.0.0",
   "description": "React Project Template with automated build.",
+  "engines": {
+    "node": "4.4.2"
+  },
   "main": "test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/chrisminnick/may2016-react-training#readme",
   "devDependencies": {
-    "gulp-cli": "github:gulpjs/gulp-cli#4.0"
+    "gulp-cli": "github:gulpjs/gulp-cli#4.0",
+    "semver": "^5.1.0"
   }
 }

@@ -1,6 +1,16 @@
 const gulp      = require("gulp");
 const semver	= require("semver");
 const eslint    = require("gulp-eslint");
+const webserver = require("gulp-webserver");
+
+//run
+gulp.task("run", function() {
+    gulp.src("src")
+        .pipe(webserver({
+            livereload: true,
+            open: true
+        }));
+});
 
 //version
 gulp.task("version", function(done) {

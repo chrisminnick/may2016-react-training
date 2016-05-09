@@ -36,7 +36,7 @@ gulp.task('lint', function () {
 });
 
 //default task
-gulp.task('default', gulp.series('version', function(done){
-    console.log('BUILD OK');
+gulp.task("default", gulp.series("version", "lint", function(done){
+    console.log("BUILD OK");
   done();
 }));

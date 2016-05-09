@@ -2,7 +2,8 @@ module.exports = {
     "env": {
         "browser": true,
         "commonjs": true,
-        "es6": true
+        "es6": true,
+        "node": true
     },
     "extends": "eslint:recommended",
     "parserOptions": {
@@ -17,8 +18,7 @@ module.exports = {
     ],
     "rules": {
         "indent": [
-            "error",
-            "tab"
+            "error"
         ],
         "linebreak-style": [
             "error",
@@ -31,6 +31,9 @@ module.exports = {
         "semi": [
             "error",
             "always"
+        ],
+        "no-console": [
+            "warn"
         ]
     }
 };
